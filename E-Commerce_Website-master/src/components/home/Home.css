@@ -1,0 +1,28 @@
+/* Add this CSS to your styles.css file or component's style block */
+
+  .category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .sort{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-cards{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+  }
+
+  #sorting-dropdown-label {
+    margin-left: 110px;
+  }

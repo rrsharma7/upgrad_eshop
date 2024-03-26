@@ -1,0 +1,45 @@
+/* ProductCard.css */
+
+.card {
+    width: 300px; /* Adjust as needed */
+    height: 500px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .name-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: large;
+  }
+  
+  .description {
+    padding: 10px;
+    color: darkgray;
+    margin-left: 6px !important;
+  }
+  
+  .buttons {
+    display: flex;
+    align-content: end;
+    position: absolute;
+    bottom: 5px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .name{
+    max-width: 170px;
+  }
+  
+  .name-price-description {
+    max-height:190px; 
+    overflow-y: auto;
+  }

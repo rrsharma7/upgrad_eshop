@@ -1,0 +1,58 @@
+.address-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.input-field input {
+    height: 30px;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.input-field button {
+    width: 415px;
+    height: 40px;
+    background-color: #3f51b5 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.next-button button {
+    padding: 5px 10px 5px 10px;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.select-address-div {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.select-address {
+    height: 40px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.select-address-div span {
+    font-size: small;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
